@@ -1,0 +1,12 @@
+Copy text from images in one click of a button!
+
+-Setup:
+1.Install requirements.txt (pip install -r requirements.txt) i nthe same directory
+2.You have to have a selfie camera for the OCR_from_camera.py to work
+3.Install Tesseract from github and run the setup
+4.Add Tesseract to your system's PATH in environment variables
+
+-Usage:
+OCR_from_image: add the path of the img you want to use OCR on
+OCR_from_camera: run the program , take a clear picture of the text by clicking on any key, check if the photo is clear enough with grayscale then press any key to finish.
+
