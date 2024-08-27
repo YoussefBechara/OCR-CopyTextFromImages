@@ -1,12 +1,72 @@
-Copy text from images in one click of a button!
+# OCR - Copy Text From Images
 
--Setup:
-1.Install requirements.txt (pip install -r requirements.txt) i nthe same directory
-2.You have to have a selfie camera for the OCR_from_camera.py to work
-3.Install Tesseract from github and run the setup
-4.Add Tesseract to your system's PATH in environment variables
+## Overview
 
--Usage:
-OCR_from_image: add the path of the img you want to use OCR on
-OCR_from_camera: run the program , take a clear picture of the text by clicking on any key, check if the photo is clear enough with grayscale then press any key to finish.
+This project provides Python scripts to perform Optical Character Recognition (OCR) on images, allowing you to extract text from both static images and camera input. It's designed to make text extraction from visual sources quick and easy.
 
+## Features
+
+- Extract text from static image files
+- Capture and extract text from camera input in real-time
+- Uses Tesseract OCR engine for accurate text recognition
+- Simple one-click operation for text extraction
+
+## Installation
+
+1. Clone the repository:
+
+git clone https://github.com/YoussefBechara/OCR-CopyTextFromImages.git
+
+
+2. Navigate to the project directory:
+
+cd OCR-CopyTextFromImages
+
+
+3. Install the required dependencies:
+
+pip install -r requirements.txt
+markdown
+
+
+4. Install Tesseract OCR:
+- Download and install Tesseract from the [official GitHub repository](https://github.com/UB-Mannheim/tesseract/wiki)
+- Add Tesseract to your system's PATH in environment variables
+
+## Usage
+
+### OCR from Static Image
+
+1. Open `OCR_from_image.py`
+2. Modify the image path to point to your desired image
+3. Run the script:
+
+python OCR_from_image.py
+
+
+### OCR from Camera
+
+1. Ensure you have a working selfie camera
+2. Run the script:
+
+python OCR_from_camera.py
+sql_more
+
+3. Press any key to capture an image
+4. Check if the grayscale image is clear enough
+5. Press any key to process the image and extract text
+
+## Requirements
+
+See `requirements.txt` for a list of Python packages required for this project.
+
+## Troubleshooting
+
+If you encounter issues:
+- Ensure Tesseract is correctly installed and added to your PATH
+- Check that your camera is functioning properly for the camera-based OCR
+- Verify that the image path is correct for static image OCR
+
+---
+
+Developed by Youssef Bechara
